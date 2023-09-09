@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="904ef6af-3c69-4b01-922c-28cf65fb200d" name="Changes" comment="Create Main.java class" />
+    <list default="true" id="904ef6af-3c69-4b01-922c-28cf65fb200d" name="Changes" comment="Update Main.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -69,13 +74,58 @@
       <option name="project" value="LOCAL" />
       <updated>1694187970637</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create Word.java Data class">
+      <option name="closed" value="true" />
+      <created>1694236394545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694236394545</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create ICRUD.java interface">
+      <option name="closed" value="true" />
+      <created>1694236690521</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694236690521</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create WordCRUD.java class">
+      <option name="closed" value="true" />
+      <created>1694237245495</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694237245495</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Create WordManager.java class">
+      <option name="closed" value="true" />
+      <created>1694237271274</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694237271274</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update Main.java">
+      <option name="closed" value="true" />
+      <created>1694237298844</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694237298844</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create WordMasterProject" />
     <MESSAGE value="Create Main.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Main.java class" />
+    <MESSAGE value="Create Word.java Data class" />
+    <MESSAGE value="Create ICRUD.java interface" />
+    <MESSAGE value="Create WordCRUD.java class" />
+    <MESSAGE value="Create WordManager.java class" />
+    <MESSAGE value="Update Main.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Main.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
