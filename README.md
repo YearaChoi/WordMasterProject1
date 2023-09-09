@@ -25,3 +25,6 @@
 
 
 8번 종료 실행화면 
+
+<img width="290" alt="스크린샷 2023-09-09 오후 3 25 13" src="https://github.com/YearaChoi/WordMasterProject1/assets/130584299/ad18573d-363e-45b8-a544-b7dbaad297f2">
+
