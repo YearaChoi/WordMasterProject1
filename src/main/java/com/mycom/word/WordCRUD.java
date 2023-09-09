@@ -46,4 +46,14 @@ public class WordCRUD implements ICRUD{ // ICRUD를 구현한 구현체
     public void selectOne(int id) {
 
     }
+
+    public void listAll(){ // 1번 메뉴를 누르면 리스트가 출력되도록 하는 함수
+        System.out.println("------------------------------");
+        // 리스트에 있는 단어가 나오도록 반복문을 돌림
+        for(int i=0; i< list.size(); i++){
+            System.out.print((i+1)+ " "); // " " 옆에 공백 넣어주기
+            System.out.println(list.get(i).toString()); // 리스트에서 데이터를 하나씩 가져다가 toString
+        }
+        System.out.println("------------------------------");
+    }
 }

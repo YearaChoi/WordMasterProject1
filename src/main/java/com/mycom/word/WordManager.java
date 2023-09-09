@@ -38,6 +38,7 @@ public class WordManager { // WordCRUD를 이용해 CRUD 기능을 구현
                 wordCRUD.addItem();
             } else if (menu == 1) {
                 // 리스트를 보여주는 구문
+                wordCRUD.listAll();
             }
         }
     }

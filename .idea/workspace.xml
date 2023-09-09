@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="904ef6af-3c69-4b01-922c-28cf65fb200d" name="Changes" comment="Update Main.java">
+    <list default="true" id="904ef6af-3c69-4b01-922c-28cf65fb200d" name="Changes" comment="Update addWord(4) Program">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694237298844</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update addWord(4) Program">
+      <option name="closed" value="true" />
+      <created>1694238885999</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694238885999</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,7 +133,8 @@
     <MESSAGE value="Create WordCRUD.java class" />
     <MESSAGE value="Create WordManager.java class" />
     <MESSAGE value="Update Main.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Main.java" />
+    <MESSAGE value="Update addWord(4) Program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update addWord(4) Program" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
