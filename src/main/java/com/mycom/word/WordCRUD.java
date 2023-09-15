@@ -164,4 +164,10 @@ public class WordCRUD implements ICRUD{ // ICRUD를 구현한 구현체
         int level = s.nextInt(); // 사용자가 입력
         listAll(level);
     }
+
+    public void searchWord() {
+        System.out.println("=> 원하는 단어는? ");
+        String keyword = s.next();
+        listAll(keyword); // 원하는 키워드를 입력받음
+    }
 }
