@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="904ef6af-3c69-4b01-922c-28cf65fb200d" name="Changes" comment="Create loadFile program">
+    <list default="true" id="904ef6af-3c69-4b01-922c-28cf65fb200d" name="Changes" comment="Create saveFile program">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" afterDir="false" />
     </list>
@@ -167,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694787267682</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Create saveFile program">
+      <option name="closed" value="true" />
+      <created>1694788017636</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1694788017636</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,7 +191,8 @@
     <MESSAGE value=" Update deleteItem(6) Program" />
     <MESSAGE value="Create Dictionary.txt" />
     <MESSAGE value="Create loadFile program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create loadFile program" />
+    <MESSAGE value="Create saveFile program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create saveFile program" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
