@@ -28,7 +28,11 @@
 
 5번 단어 수정 실행화면
 
+<img width="272" alt="스크린샷 2023-09-15 오후 10 49 45" src="https://github.com/YearaChoi/WordMasterProject1/assets/130584299/cd534afb-2ba7-432f-b723-1ca46be06c53">
+
 6번 단어 삭제 실행화면
+
+<img width="262" alt="스크린샷 2023-09-15 오후 10 48 31" src="https://github.com/YearaChoi/WordMasterProject1/assets/130584299/f653f958-5418-4c28-a3df-3a154e5994b7">
 
 7번 파일 저장 실행화면
 
