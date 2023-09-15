@@ -63,4 +63,8 @@ public class Word {
                 + String.format("%15s", word) + " " + meaning; // 오른쪽 정렬
         return str;
     }
+    public String toFileString(){
+        // 파일에 출력하기 위한 문자열
+        return this.level + "|" + this.word + "|" + this.meaning;
+    }
 }

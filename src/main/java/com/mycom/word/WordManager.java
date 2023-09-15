@@ -46,6 +46,9 @@ public class WordManager { // WordCRUD를 이용해 CRUD 기능을 구현
             } else if (menu == 6) {
                 // 데이터를 삭제하는 부분
                 wordCRUD.deleteItem();
+            } else if (menu == 7){
+                // 파일에 데이터를 저장하는 부분
+                wordCRUD.saveFile();
             }
         }
     }

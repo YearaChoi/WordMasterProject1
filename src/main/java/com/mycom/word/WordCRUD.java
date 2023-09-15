@@ -1,8 +1,6 @@
 package com.mycom.word;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -129,6 +127,20 @@ public class WordCRUD implements ICRUD{ // ICRUD를 구현한 구현체
             }
             br.close();
             System.out.println("==> " + count + "개 데이터 로딩 완료!!!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void saveFile() {
+        try {
+            PrintWriter pr = new PrintWriter(new FileWriter(fname));
+            for(Word one : list){ // 리스트에 있는 모든 데이터를 하나씩 가져와
+                pr.write(one.toFileString() + "\n"); // 파일에 추가
+            }
+            pr.close();
+            System.out.println("==> 데이터 저장 완료 !!!");
+
         } catch (IOException e) {
             e.printStackTrace();
         }
