@@ -1,5 +1,8 @@
 package com.mycom.word;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -7,6 +10,7 @@ public class WordCRUD implements ICRUD{ // ICRUD를 구현한 구현체
     // 배열 리스트를 사용하여 동적 데이터를 관리할 수 있도록 ArrayList 선언
     ArrayList<Word> list;
     Scanner s; // 사용자에게 입력받아올 수 있도록 스캐너 정의
+    final String fname = "Dictionary.txt";
 
     WordCRUD(Scanner s){
         list = new ArrayList<>();
@@ -104,5 +108,29 @@ public class WordCRUD implements ICRUD{ // ICRUD를 구현한 구현체
             System.out.println("단어가 삭제되었습니다. ");
         }else // Y가 아닌 다른 것을 입력하였을 경우
             System.out.println("취소되었습니다. ");
+    }
+    public void loadFile(){
+        // Dictionary.txt 파일을 열고, 파일에 있는 데이터를 한 줄씩 읽어서 워드 객체를 리스트에 추가
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(fname)); // 이 부분이 안됨
+            String line; // 데이터를 한 줄씩 읽어오기 위한 변수
+            int count =0; // n개 데이터 로딩 완료!! 데이터를 세기 위한 변수
+
+            while(true) {
+                line = br.readLine(); // 한 줄로 읽어오고
+                if (line == null) break; // 파일의 끝을 만나면 끝낸다
+
+                String data[] = line.split("\\|"); // 한 글자씩 쪼개서 읽기
+                int level = Integer.parseInt(data[0]);
+                String word = data[1];
+                String meaning = data[2];
+                list.add(new Word(0, level, word, meaning));
+                count++; // 데이터 개수 증가
+            }
+            br.close();
+            System.out.println("==> " + count + "개 데이터 로딩 완료!!!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

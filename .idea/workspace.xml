@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="904ef6af-3c69-4b01-922c-28cf65fb200d" name="Changes" comment=" Update deleteItem(6) Program">
-      <change afterPath="$PROJECT_DIR$/Dictionary.txt" afterDir="false" />
+    <list default="true" id="904ef6af-3c69-4b01-922c-28cf65fb200d" name="Changes" comment="Create Dictionary.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -148,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694785574104</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Create Dictionary.txt">
+      <option name="closed" value="true" />
+      <created>1694786562605</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694786562605</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,7 +173,8 @@
     <MESSAGE value="Update listAll(1) Program" />
     <MESSAGE value=" Update updateItem(5) Program" />
     <MESSAGE value=" Update deleteItem(6) Program" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Update deleteItem(6) Program" />
+    <MESSAGE value="Create Dictionary.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Dictionary.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

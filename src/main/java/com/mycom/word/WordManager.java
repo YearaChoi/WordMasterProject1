@@ -29,6 +29,7 @@ public class WordManager { // WordCRUD를 이용해 CRUD 기능을 구현
 
     public void start() { // WordManager에서 메인 역할을 하는 start함수
 
+        wordCRUD.loadFile();
 
         while (true) {
             int menu = selectMenu(); // 리턴된 값을 그대로 출력
