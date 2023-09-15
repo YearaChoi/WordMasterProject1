@@ -88,4 +88,21 @@ public class WordCRUD implements ICRUD{ // ICRUD를 구현한 구현체
         word.setMeaning(meaning); // 원하는 객체의 뜻을 바꿈
         System.out.println("단어가 수정되었습니다. ");
     }
+
+    public void deleteItem() {
+        System.out.println("=> 삭제할 단어 검색 : ");
+        String keyword = s.next();
+        ArrayList<Integer> idlist = this.listAll(keyword);
+        System.out.println("=> 삭제할 번호 선택 : ");
+        int id = s.nextInt();
+        s.nextLine();
+
+        System.out.println("=> 정말로 삭제하실래요? (Y/n) ");
+        String ans = s.next(); // 사용자 대답을 받는 변수
+        if(ans.equalsIgnoreCase("y")){ // 사용자가 Y라고 답했을 때 데이터를 삭제, 소문자도 가능
+            list.remove((int)idlist.get(id-1)); // 해당 위치의 데이터 삭제
+            System.out.println("단어가 삭제되었습니다. ");
+        }else // Y가 아닌 다른 것을 입력하였을 경우
+            System.out.println("취소되었습니다. ");
+    }
 }
